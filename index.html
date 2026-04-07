@@ -3,148 +3,257 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bert Games | Indie Games & Apps</title>
-  <meta name="description" content="Bert Games is an indie game and app developer creating survival games, Roblox games, mobile apps, and playable web experiences." />
+  <title>Bert Games – Indie Games & App Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <div class="logo">Bert Games</div>
-      <div class="nav-links">
-        <a href="#games">Games</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
 
+  <!-- ░░ NAVIGATION ░░ -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-bert">BERT</span><span class="logo-games">GAMES</span>
+        <span class="logo-star">★</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#games">Games</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <header class="hero">
+    <div class="hero-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
     <div class="hero-content">
-      <p class="eyebrow">INDIE GAMES & APPS</p>
-      <h1>Creating fun, memorable worlds and playable experiences.</h1>
-      <p class="hero-text">
-        Bert Games is the indie studio of Bertus Engelbrecht, building games and apps
-        across Steam, Roblox, mobile, and the web.
+      <div class="hero-badge">🎮 Indie Dev Studio</div>
+      <h1 class="hero-title">
+        <span class="title-line-1">Welcome to</span>
+        <span class="title-line-2">BERT<span class="title-accent">GAMES</span></span>
+      </h1>
+      <p class="hero-sub">
+        Crafting bold, fun & unforgettable indie games across PC, mobile & web.<br />
+        Built by one passionate developer — <strong>Bertus Engelbrecht</strong>.
       </p>
-      <div class="hero-buttons">
-        <a class="btn btn-primary" href="#games">Explore My Games</a>
-        <a class="btn btn-secondary" href="#featured">Featured Project</a>
+      <div class="hero-cta">
+        <a href="#games" class="btn btn-primary">🕹️ Browse Games</a>
+        <a href="https://store.steampowered.com/app/2287170/Surviving_Skeleton_Island/" target="_blank" class="btn btn-outline">⭐ Play on Steam</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Games Made</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Platforms</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Fun Guaranteed</span></div>
       </div>
     </div>
+    <div class="hero-art">
+      <div class="floating-icon fi-1">🏝️</div>
+      <div class="floating-icon fi-2">⚔️</div>
+      <div class="floating-icon fi-3">💎</div>
+      <div class="floating-icon fi-4">🏴‍☠️</div>
+      <div class="floating-icon fi-5">🤖</div>
+      <div class="floating-icon fi-6">🎯</div>
+      <div class="screen-mockup">
+        <div class="screen-inner">
+          <div class="screen-scanlines"></div>
+          <div class="screen-text">BERT GAMES</div>
+          <div class="screen-sub">PRESS START</div>
+          <div class="screen-blink">▮</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">↓ scroll down ↓</div>
   </header>
 
-  <main>
-    <section id="featured" class="section featured">
-      <div class="featured-card">
-        <div class="featured-text">
-          <p class="section-tag">FEATURED</p>
-          <h2>Surviving Skeleton Island</h2>
-          <p>
-            A survival adventure from Bert Games. Explore, craft, survive,
-            and uncover the secrets of a dangerous island world.
-          </p>
-          <a class="btn btn-primary" href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">
-            View on Steam
-          </a>
+  <!-- ░░ GAMES SECTION ░░ -->
+  <section class="games-section" id="games">
+    <div class="section-header">
+      <div class="section-tag">Our Games</div>
+      <h2 class="section-title">Play. Explore. <span class="highlight">Have Fun.</span></h2>
+      <p class="section-sub">From open-world survival to clickers and Roblox adventures — there's something for everyone.</p>
+    </div>
+
+    <div class="games-grid">
+
+      <!-- FEATURED GAME: Surviving Skeleton Island -->
+      <div class="game-card featured">
+        <div class="card-ribbon">⭐ Featured</div>
+        <div class="card-cover" style="background: linear-gradient(135deg, #1a1035 0%, #2d1b69 40%, #6b3fa0 70%, #c0392b 100%);">
+          <div class="cover-art">🏝️💀⚔️</div>
+          <div class="cover-platform steam">Steam</div>
         </div>
-        <div class="featured-art">
-          <div class="placeholder-art">Your game banner image can go here</div>
+        <div class="card-body">
+          <h3 class="card-title">Surviving Skeleton Island</h3>
+          <p class="card-desc">An open-world 3D survival crafting RPG where you're stranded on a mysterious island. Explore 12 unique biomes, fight bosses, build your base, craft legendary weapons, and uncover the truth behind your amnesia. Every choice shapes your destiny.</p>
+          <div class="card-tags">
+            <span class="tag">Survival</span>
+            <span class="tag">Open World</span>
+            <span class="tag">RPG</span>
+            <span class="tag">Early Access</span>
+          </div>
+          <a href="https://store.steampowered.com/app/2287170/Surviving_Skeleton_Island/" target="_blank" class="btn btn-steam">🎮 Play on Steam</a>
         </div>
       </div>
-    </section>
 
-    <section id="games" class="section">
-      <div class="section-header">
-        <p class="section-tag">MY PROJECTS</p>
-        <h2>Games & Apps</h2>
-        <p>Here are some of the projects from Bert Games.</p>
+      <!-- Pirate Clicker Adventures -->
+      <div class="game-card">
+        <div class="card-cover" style="background: linear-gradient(135deg, #0d47a1 0%, #1565c0 40%, #f57f17 80%, #e65100 100%);">
+          <div class="cover-art">🏴‍☠️🪙⚓</div>
+          <div class="cover-platform unity">Unity</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Pirate Clicker Adventures</h3>
+          <p class="card-desc">Set sail on the high seas in this addictive clicker adventure! Plunder treasure, recruit your crew and build a pirate empire one click at a time. Coming soon — wishlist now!</p>
+          <div class="card-tags">
+            <span class="tag">Clicker</span>
+            <span class="tag">Adventure</span>
+            <span class="tag">Mobile</span>
+          </div>
+          <a href="#" class="btn btn-coming-soon">🔔 Coming Soon</a>
+        </div>
       </div>
 
-      <div class="game-grid">
-        <article class="game-card">
-          <div class="game-thumb">Skeleton Island</div>
-          <h3>Surviving Skeleton Island</h3>
-          <p>Survival adventure game on Steam.</p>
-          <div class="game-actions">
-            <a class="btn btn-small" href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Steam Page</a>
+      <!-- Relic Scavengers -->
+      <div class="game-card">
+        <div class="card-cover" style="background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 40%, #f9a825 80%, #ff6f00 100%);">
+          <div class="cover-art">🏺🔍🗺️</div>
+          <div class="cover-platform roblox">Roblox</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Relic Scavengers</h3>
+          <p class="card-desc">Hunt for ancient relics hidden across vast Roblox worlds. Solve puzzles, outsmart rivals, and be the first to claim the ultimate relic. Team up or go solo in this thrilling scavenger adventure!</p>
+          <div class="card-tags">
+            <span class="tag">Roblox</span>
+            <span class="tag">Puzzle</span>
+            <span class="tag">Multiplayer</span>
           </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-thumb">Pirate Clicker</div>
-          <h3>Pirate Clicker Adventures</h3>
-          <p>A Unity clicker game with pirate-themed progression.</p>
-          <div class="game-actions">
-            <a class="btn btn-small" href="#">Download</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-thumb">Relic Scavengers</div>
-          <h3>Relic Scavengers</h3>
-          <p>A treasure-hunting Roblox adventure.</p>
-          <div class="game-actions">
-            <a class="btn btn-small" href="https://www.roblox.com/" target="_blank" rel="noopener noreferrer">Play on Roblox</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-thumb">BroBattle</div>
-          <h3>BroBattle</h3>
-          <p>A Roblox multiplayer action game.</p>
-          <div class="game-actions">
-            <a class="btn btn-small" href="https://www.roblox.com/" target="_blank" rel="noopener noreferrer">Play on Roblox</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-thumb">Gamebook Creator</div>
-          <h3>Bert's Gamebook Creator</h3>
-          <p>Create and play interactive gamebooks in browser or on Android.</p>
-          <div class="game-actions">
-            <a class="btn btn-small" href="#">Play Web Version</a>
-            <a class="btn btn-small btn-outline" href="#">Download APK</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-thumb">ChrisMotoX</div>
-          <h3>ChrisMotoX</h3>
-          <p>A Unity motorbike game project.</p>
-          <div class="game-actions">
-            <a class="btn btn-small" href="#">Download</a>
-          </div>
-        </article>
+          <a href="#" class="btn btn-roblox">🎮 Play on Roblox</a>
+        </div>
       </div>
-    </section>
 
-    <section id="about" class="section about">
-      <div class="section-header">
-        <p class="section-tag">ABOUT BERT GAMES</p>
-        <h2>Indie game and app development from South Africa</h2>
+      <!-- BroBattle -->
+      <div class="game-card">
+        <div class="card-cover" style="background: linear-gradient(135deg, #880e4f 0%, #c2185b 40%, #ff6090 70%, #ff9100 100%);">
+          <div class="cover-art">🥊🔥💥</div>
+          <div class="cover-platform roblox">Roblox</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">BroBattle</h3>
+          <p class="card-desc">The ultimate bro vs bro showdown on Roblox! Battle your friends in crazy arenas, unlock wild power-ups and prove once and for all who the ultimate bro is. Fast, frantic and hilariously fun!</p>
+          <div class="card-tags">
+            <span class="tag">Roblox</span>
+            <span class="tag">Battle</span>
+            <span class="tag">Multiplayer</span>
+          </div>
+          <a href="#" class="btn btn-roblox">🎮 Play on Roblox</a>
+        </div>
       </div>
-      <p class="about-text">
-        Bert Games is focused on creating original indie games, Roblox experiences,
-        useful apps, and fun web-based tools. The goal is to make projects that are
-        engaging, creative, and enjoyable for players across multiple platforms.
-      </p>
-    </section>
 
-    <section id="contact" class="section contact">
-      <div class="section-header">
-        <p class="section-tag">CONTACT</p>
-        <h2>Find Bert Games online</h2>
+      <!-- Bert's Gamebook Creator -->
+      <div class="game-card">
+        <div class="card-cover" style="background: linear-gradient(135deg, #4a148c 0%, #7b1fa2 40%, #00bcd4 80%, #00e5ff 100%);">
+          <div class="cover-art">📖✨🎲</div>
+          <div class="cover-platform web">Web + APK</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Bert's Gamebook Creator</h3>
+          <p class="card-desc">Create your own interactive gamebook adventures with this easy-to-use tool! Write branching stories, design choices and share your creations with the world. Available in your browser or as an Android app.</p>
+          <div class="card-tags">
+            <span class="tag">Tool</span>
+            <span class="tag">Creative</span>
+            <span class="tag">Web + Android</span>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn btn-web">▶ Play in Browser</a>
+            <a href="#" class="btn btn-apk">📱 Download APK</a>
+          </div>
+        </div>
       </div>
-      <div class="contact-links">
-        <a class="btn btn-secondary" href="https://github.com/bertgames" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a class="btn btn-secondary" href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Steam</a>
-        <a class="btn btn-secondary" href="https://itch.io/" target="_blank" rel="noopener noreferrer">itch.io</a>
-        <a class="btn btn-secondary" href="https://www.roblox.com/" target="_blank" rel="noopener noreferrer">Roblox</a>
-      </div>
-    </section>
-  </main>
 
+      <!-- ChrisMotoX -->
+      <div class="game-card">
+        <div class="card-cover" style="background: linear-gradient(135deg, #b71c1c 0%, #d32f2f 40%, #ff8f00 80%, #ffd600 100%);">
+          <div class="cover-art">🏍️💨🏆</div>
+          <div class="cover-platform unity">Unity</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">ChrisMotoX</h3>
+          <p class="card-desc">Hit the dirt track in this high-octane motocross racing game! Pull off insane tricks, race through wild courses and chase the podium in this adrenaline-pumping Unity racer. Coming soon!</p>
+          <div class="card-tags">
+            <span class="tag">Racing</span>
+            <span class="tag">Action</span>
+            <span class="tag">Unity</span>
+          </div>
+          <a href="#" class="btn btn-coming-soon">🔔 Coming Soon</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT SECTION ░░ -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-visual">
+        <div class="about-avatar">
+          <div class="avatar-ring"></div>
+          <div class="avatar-inner">👨‍💻</div>
+        </div>
+        <div class="about-floats">
+          <span class="af af1">🎮</span>
+          <span class="af af2">🚀</span>
+          <span class="af af3">💡</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-tag">About Bert Games</div>
+        <h2 class="section-title">One Dev. <span class="highlight">Big Dreams.</span></h2>
+        <p>Hi! I'm <strong>Bertus Engelbrecht</strong>, a solo indie game developer with a passion for creating fun, creative and memorable gaming experiences across every platform.</p>
+        <p>From massive open-world survival RPGs on Steam, to casual clickers on mobile, Roblox adventures, and handy web tools — Bert Games is where imagination meets code. Every game is a labour of love, built from scratch by one person who genuinely loves games.</p>
+        <p>The mission is simple: <strong>make games that are fun first</strong>, and let the community help shape what comes next.</p>
+        <div class="about-platforms">
+          <div class="platform-chip">🎮 Steam</div>
+          <div class="platform-chip">📱 Android</div>
+          <div class="platform-chip">🌐 Web</div>
+          <div class="platform-chip">🟥 Roblox</div>
+          <div class="platform-chip">⚙️ Unity</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ NEWSLETTER / STAY IN TOUCH ░░ -->
+  <section class="cta-section" id="contact">
+    <div class="cta-blob"></div>
+    <div class="cta-inner">
+      <div class="cta-emoji">📬</div>
+      <h2>Stay in the Loop!</h2>
+      <p>New games, updates and early access drops — follow Bert Games and never miss a release.</p>
+      <div class="social-links">
+        <a href="https://store.steampowered.com/app/2287170/Surviving_Skeleton_Island/" target="_blank" class="social-btn steam-btn">🎮 Steam Page</a>
+        <a href="mailto:hello@bertgames.com" class="social-btn email-btn">✉️ Email Us</a>
+      </div>
+      <p class="cta-note">More social links coming soon — we're just getting started! 🚀</p>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
   <footer class="footer">
-    <p>© 2026 Bert Games. Built by Bertus Engelbrecht.</p>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-bert">BERT</span><span class="logo-games">GAMES</span><span class="logo-star">★</span>
+      </div>
+      <p class="footer-tagline">Made with ❤️ by one indie dev who loves games.</p>
+      <p class="footer-copy">© 2025 Bert Games · Bertus Engelbrecht · All rights reserved</p>
+    </div>
   </footer>
+
 </body>
 </html>
