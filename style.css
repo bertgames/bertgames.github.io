@@ -107,7 +107,7 @@ a {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(6, 17, 29, 0.94), rgba(6, 17, 29, 0.6)),
-    url("images/hero-bg.jpg") center/cover no-repeat;
+    url("images/hero-bg.png") center/cover no-repeat;
   opacity: 1;
 }
 
@@ -464,7 +464,7 @@ a {
 
 /* Optional real image hooks */
 .featured-image {
-  background-image: url("images/skeleton-island.jpg");
+  background-image: url("images/skeleton-island.png");
 }
 
 @media (max-width: 980px) {
