@@ -295,15 +295,15 @@
 
         <form
           class="contact-form"
-          action="https://formsubmit.co/bertuseng@gmail.com"
+          action="https://api.web3forms.com/submit"
           method="POST"
         >
-          <input type="hidden" name="_subject" value="New message from bertgames.com" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_template" value="table" />
+          <!-- Replace YOUR_ACCESS_KEY with the key from web3forms.com -->
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY" />
+          <input type="hidden" name="from_name" value="bertgames.com contact form" />
           <input
-            type="text"
-            name="_honey"
+            type="checkbox"
+            name="botcheck"
             style="display:none"
             tabindex="-1"
             autocomplete="off"
