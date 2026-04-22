@@ -289,9 +289,49 @@
       <div class="container">
         <div class="section-header">
           <p class="section-tag">CONTACT</p>
-          <h2>Find Bert Games online</h2>
-          <p>Connect with Bert Games across platforms.</p>
+          <h2>Get in touch</h2>
+          <p>Send a message below, or find Bert Games across the web.</p>
         </div>
+
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/bertuseng@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New message from bertgames.com" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input
+            type="text"
+            name="_honey"
+            style="display:none"
+            tabindex="-1"
+            autocomplete="off"
+          />
+
+          <div class="form-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required autocomplete="email" />
+            </label>
+          </div>
+
+          <label>
+            <span>Subject</span>
+            <input type="text" name="subject" required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
 
         <div class="contact-links">
           <a
