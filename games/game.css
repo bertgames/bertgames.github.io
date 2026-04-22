@@ -301,6 +301,38 @@ body.no-scroll {
   flex-wrap: wrap;
 }
 
+.install-note {
+  margin-top: 20px;
+  padding: 22px 24px;
+  border-radius: 18px;
+  background: rgba(255, 204, 107, 0.06);
+  border: 1px solid rgba(255, 204, 107, 0.22);
+}
+
+.install-note h3 {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  color: var(--gold);
+  letter-spacing: 0.3px;
+}
+
+.install-note p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.install-note ol {
+  margin: 0;
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.install-note strong {
+  color: var(--text);
+}
+
 .meta-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
