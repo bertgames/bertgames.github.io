@@ -286,9 +286,15 @@ a {
 }
 
 .game-thumb {
+  display: block;
   height: 220px;
   background-size: cover;
   background-position: center;
+}
+
+.game-card-body h3 a:hover,
+.game-thumb:hover {
+  opacity: 0.92;
 }
 
 /* GAME IMAGES (PNG) */
