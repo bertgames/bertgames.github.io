@@ -139,10 +139,62 @@ a {
 }
 
 .hero h1 {
-  font-size: clamp(2.7rem, 5vw, 5.4rem);
-  line-height: 1.02;
-  margin: 0 0 20px;
+  font-size: clamp(2rem, 3.8vw, 3.6rem);
+  line-height: 1.12;
+  margin: 0 0 22px;
   max-width: 860px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.hero h1 .shine {
+  background: linear-gradient(115deg, var(--gold) 0%, var(--accent-2) 55%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  filter: drop-shadow(0 2px 18px rgba(79, 208, 255, 0.22));
+}
+
+.hero-content > * {
+  opacity: 0;
+  transform: translateY(14px);
+  animation: hero-fade 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+
+.hero-content > *:nth-child(1) { animation-delay: 0.05s; }
+.hero-content > *:nth-child(2) { animation-delay: 0.16s; }
+.hero-content > *:nth-child(3) { animation-delay: 0.28s; }
+.hero-content > *:nth-child(4) { animation-delay: 0.42s; }
+
+.hero-panel {
+  opacity: 0;
+  transform: translateX(22px);
+  animation: hero-slide 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) 0.45s forwards;
+}
+
+@keyframes hero-fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-slide {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-content > *,
+  .hero-panel {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .hero-text {
@@ -267,7 +319,7 @@ a {
 .featured-image {
   min-height: 320px;
   border-radius: 20px;
-  background-image: url("images/skeleton-island.png");
+  background-image: url("images/gamebook-creator.png");
   background-size: cover;
   background-position: center;
 }
