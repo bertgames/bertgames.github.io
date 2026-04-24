@@ -1,0 +1,24 @@
+# Bert Games
+
+> Bert Games is the indie studio of Bertus Engelbrecht — designing and shipping original games, creative apps, and interactive projects across the web, Android, Steam, and Roblox.
+
+## Featured project
+
+- [Bert's Gamebook Creator](https://bertgames.com/games/gamebook-creator/): A complete toolkit for writing, playing, and sharing Fighting Fantasy-style gamebooks. Free, browser-based, with an Android APK build. Includes a rich text editor, visual flowchart, customisable character sheet builder, reader mode with dice and auto-save, and a public library for community-made gamebooks.
+
+## All projects
+
+- [Surviving Skeleton Island](https://store.steampowered.com/app/2287170/Surviving_Skeleton_Island): Survival adventure game on Steam.
+- Pirate Clicker Adventures: Pirate-themed clicker and progression game built in Unity.
+- [Relic Scavengers](https://www.roblox.com/games/92907649043381/Relic-Scavengers): Treasure-hunting Roblox adventure.
+- [BroBattle](https://www.roblox.com/games/17816427287/BroBattle-Fun-FFA-Arena-Shooter): Multiplayer Roblox FFA arena shooter.
+- [Bert's Gamebook Creator (web)](https://bertsgamebookcreator.netlify.app): Interactive gamebook creation tool.
+- [Wandering Blade](https://wanderingblade.netlify.app): Action-adventure web game with exploration and combat.
+
+## Links
+
+- Home: https://bertgames.com/
+- Contact form: https://bertgames.com/#contact
+- Discord community: https://discord.gg/QAHfsCbE
+- YouTube: https://www.youtube.com/@bertgames777
+- GitHub: https://github.com/bertgames
